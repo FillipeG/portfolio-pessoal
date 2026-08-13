@@ -35,24 +35,6 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 
 ## 📁 Estrutura de Pastas
 
-\```
-meu-portfolio/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   └── icons/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── package.json
-└── README.md
-\```
-
 - **public/** — arquivos estáticos que não passam por processamento (ícones, favicon, imagens fixas)
 - **src/assets/** — imagens e ícones usados dentro dos componentes
 - **src/components/** — componentes reutilizáveis
