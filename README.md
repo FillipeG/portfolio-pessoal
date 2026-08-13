@@ -33,10 +33,12 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 
 ---
 
-portfolio-pessoal/
+## 📁 Estrutura de Pastas
+
+\```
+meu-portfolio/
 ├── public/
-│   ├── favicon.ico
-│   └── index.html
+│   └── favicon.ico
 ├── src/
 │   ├── assets/
 │   │   ├── images/
@@ -49,3 +51,11 @@ portfolio-pessoal/
 ├── index.html
 ├── package.json
 └── README.md
+\```
+
+- **public/** — arquivos estáticos que não passam por processamento (ícones, favicon, imagens fixas)
+- **src/assets/** — imagens e ícones usados dentro dos componentes
+- **src/components/** — componentes reutilizáveis
+- **src/pages/** — páginas/rotas da aplicação
+- **src/styles/** — arquivos de estilo (CSS, SCSS, etc.)
+- **index.html** — ponto de entrada da aplicação (usado pelo Vite)
