@@ -101,4 +101,4 @@ O projeto ficará disponível em `http://localhost:5173`.
 
 ## 🌐 Site Publicado
 
-`(link será adicionado após o deploy — Lab01S03)`
+`(link será adicionado após o deploy)`
