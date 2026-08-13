@@ -1,4 +1,4 @@
-# 🚀 [Portfólio Pessoal]
+# 🚀 Portfólio Pessoal
 
 > *Portfólio interativo para apresentação de projetos, habilidades e contatos*
 
@@ -33,19 +33,19 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 
 ---
 
-PORTFOLIO-PESSOAL/
+portfolio-pessoal/
 ├── public/
 │   ├── favicon.ico
 │   └── index.html
 ├── src/
-│   ├── assets/          # Imagens, ícones, logotipos e protótipos
+│   ├── assets/
 │   │   ├── images/
 │   │   └── icons/
-│   ├── components/      # Componentes reutilizáveis (Navbar, Footer, ProjectCard, etc.)
-│   ├── pages/           # Páginas ou seções da aplicação (Home, About, Projects, Contact)
-│   ├── styles/          # Estilos globais e temas
-│   ├── App.jsx          # Componente principal
-│   └── main.jsx         # Ponto de entrada do React
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
 ├── index.html
 ├── package.json
 └── README.md
