@@ -18,10 +18,20 @@ Este projeto consiste no desenvolvimento do meu portfólio web pessoal. O objeti
 Aqui estão as imagens das telas e do fluxo da aplicação:
 
 ### 📱 Layout / Telas
+
+#### 🏠 Página Inicial / Sobre Mim
 ![Página Inicial / Sobre Mim](./src/assets/pagina-inicial-sobremim.png)
+
+#### 📂 Página de Projetos
 ![Página de Projetos](./src/assets/PaginaProjetos.png)
+
+#### 🔍 Detalhes do Projeto
 ![Página de Detalhes do Projeto](./src/assets/PaginaDetalhesProjeto.png)
+
+#### 💼 Página de Experiência
 ![Página de Experiência](./src/assets/PáginaExperiência.png)
+
+#### ✉️ Página de Contato
 ![Página de Contato](./src/assets/pagina-de-contato.png)
 
 > 🔗 **Link do Figma:** [Clique aqui para acessar o protótipo interativo](https://www.figma.com/design/e4Malif4A6em6Vo9LXrWvZ/Untitled?node-id=0-1&t=ovZkXaLwx31QkIAU-1)
