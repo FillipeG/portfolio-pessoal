@@ -1,0 +1,104 @@
+.terminal-card {
+  background-color: #0d1117; 
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.terminal-card:hover {
+  transform: translateY(-5px); 
+}
+
+.terminal-header {
+  background-color: #161b22;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #30363d;
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.btn.close { background-color: #ff5f56; }
+.btn.minimize { background-color: #ffbd2e; }
+.btn.maximize { background-color: #27c93f; }
+
+.terminal-title {
+  color: #8b949e;
+  font-size: 0.85rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terminal-body {
+  padding: 15px;
+  color: #c9d1d9;
+  font-size: 0.9rem;
+}
+
+.command {
+  margin: 10px 0 5px 0;
+  color: #c9d1d9;
+}
+
+.prompt {
+  color: #3fb950; 
+  font-weight: bold;
+}
+
+.output {
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-item {
+  color: #58a6ff; 
+}
+
+.terminal-link {
+  display: block;
+  margin-top: 20px;
+  color: #3fb950;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.terminal-link:hover {
+  text-decoration: underline;
+  color: #56d364;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  background-color: #3fb950;
+  width: 8px;
+  height: 15px;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

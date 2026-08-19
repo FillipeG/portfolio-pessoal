@@ -1,7 +1,10 @@
+import PageTitle from '../components/PageTitle';
+import '../styles/Page.css';
+
 export default function Experiencias() {
   return (
-    <section>
-      <h1>Experiências</h1>
+    <section className="page-section">
+      <PageTitle>Experiências</PageTitle>
     </section>
   );
 }
