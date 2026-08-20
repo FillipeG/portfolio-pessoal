@@ -20,10 +20,10 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 ### 📱 Layout / Telas
 
 #### 🏠 Página Inicial / Sobre Mim
-![Página Inicial / Sobre Mim](./src/assets/pagina-inicial-sobremim.png)
+![Página Inicial / Sobre Mim](./src/assets/sobremim-portfolio.png)
 
 #### 📂 Página de Projetos
-![Página de Projetos](./src/assets/PaginaProjetos.png)
+![Página de Projetos](./src/assets/projetos-portfolio.png)
 
 #### 🔍 Detalhes do Projeto
 ![Página de Detalhes do Projeto](./src/assets/PaginaDetalhesProjeto.png)
