@@ -15,12 +15,17 @@ export default function SobreMim() {
           {}
           <div className="tech-card">
             <h3> IDENTIFICAÇÃO</h3>
-            <p>Nome: <span></span></p>
-            <p>Idade: <span></span></p>
-            <p>Formação: <span></span></p>
+            <p>Nome: <span>Fillipe Araujo</span></p>
+            <p>Idade: <span>20</span></p>
+            <p>Formação: <span>Engenharia de Software</span></p>
             <div className="bio-box">
               <p>
-                []
+                Estudante de Engenharia de Software na PUC Minas com sólida base em 
+                desenvolvimento fullstack e experiência prática na construção de 
+                aplicações reais. Apaixonado por Cybersecurity desde a infância, 
+                atuo ativamente no desenvolvimento técnico na área por meio de cursos, 
+                laboratórios práticos e CTFs, unindo a visão de desenvolvimento
+                 de software com a mentalidade de segurança ofensiva e defensiva.
               </p>
             </div>
           </div>
@@ -29,12 +34,14 @@ export default function SobreMim() {
           <div className="tech-card">
             <h3> TECH STACK</h3>
             <ul className="stack-list">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>React</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>Burp Suite</li>
+              <li>Docker</li>
+              <li>APIs restful</li>
             </ul>
           </div>
 
