@@ -50,7 +50,7 @@ export default function SobreMim() {
             <h3> MINHA JORNADA</h3>
             <div className="story-content">
               <p>
-                
+                Estudante de Engenharia de Software na PUC Minas, com experiência prática em desenvolvimento fullstack e um ano de imersão internacional nos EUA. Venho me aprofundando por conta própria em Segurança da Informação: cursos, labs e CTFs, unindo a vivência de quem desenvolve à capacidade de identificar e corrigir vulnerabilidades. Interesse particular em AppSec e SecOps.
                 
               </p>
             </div>
