@@ -10,7 +10,7 @@ export default function ProjectCard({ title, description, tech, link }) {
           <span className="btn minimize"></span>
           <span className="btn maximize"></span>
         </div>
-        <div className="terminal-title">bash - {title}</div>
+        <div className="terminal-title">{title}</div>
       </div>
       <div className="terminal-body">
         <p className="command">

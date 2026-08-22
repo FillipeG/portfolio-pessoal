@@ -5,10 +5,14 @@
   padding: 20px;
   width: 100%;
   max-width: 380px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, border-color 0.3s ease;
+  overflow: hidden;
 }
 
 .experience-card:hover {
@@ -23,6 +27,7 @@
   overflow: hidden;
   margin-bottom: 16px;
   background: #111;
+  flex-shrink: 0;
 }
 
 .experience-card__image img {
@@ -35,19 +40,28 @@
   color: #c9d1d9;
   font-size: 1.1rem;
   margin-bottom: 8px;
+  flex-shrink: 0;
+}
+
+.experience-card__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  margin-bottom: 12px;
 }
 
 .experience-card__desc {
   color: #8b949e;
   font-size: 0.9rem;
-  margin-bottom: 12px;
+  margin: 0;
 }
 
 .experience-card__full {
   color: #c9d1d9;
   font-size: 0.88rem;
   line-height: 1.6;
-  margin-bottom: 14px;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .experience-card__btn {
@@ -62,6 +76,8 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  align-self: flex-start;
+  flex-shrink: 0;
   transition: filter 0.15s ease;
 }
 

@@ -10,11 +10,13 @@ export default function ExperienceCard({ image, title, description, fullDescript
         <img src={image} alt={title} />
       </div>
       <h3 className="experience-card__title">{title}</h3>
-      <p className="experience-card__desc">{description}</p>
 
-      {expanded && (
-        <p className="experience-card__full">{fullDescription}</p>
-      )}
+      <div className="experience-card__body">
+        <p className="experience-card__desc">{description}</p>
+        {expanded && (
+          <p className="experience-card__full">{fullDescription}</p>
+        )}
+      </div>
 
       <button
         className="experience-card__btn"
